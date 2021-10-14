@@ -1,11 +1,11 @@
 body {
-  background-color: transparent;
+  background-color: #959595;
   font-family: 'Assistant', sans-serif;
   color: #041f5d;
 }
 
 .navbar-brand img {
-  max-height: 40px;
+  max-height: 20px;
 }
 
 .btn-navbar-right {
@@ -33,5 +33,69 @@ body {
 .btn-login:hover {
   background-color: #a1bdff;
   color: #00078d;
+}
+
+header img {
+  margin-top: 75px;
+}
+
+header .section-sejarah-content .container .card-item {
+  margin-top: 45px;
+  min-height: 380px;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+header .section-sejarah-content .container hr {
+  margin-left: -80px;
+  margin-right: -80px;
+}
+
+header .section-sejarah-content .container h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+header .section-sejarah-content .container p {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header .section-ahp-content .container .card-table {
+  margin-top: 45px;
+  min-height: 380px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+header .section-ahp-content .container hr {
+  margin-left: -80px;
+  margin-right: -80px;
+}
+
+header .section-ahp-content .container h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+header .section-ahp-content .container form {
+  padding: 30px;
+  text-align: left;
+}
+
+header .section-ahp-content .container form label {
+  font-size: 16px;
+}
+
+header .section-ahp-content .container form input {
+  border-radius: 5px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 /*# sourceMappingURL=main.css.map */

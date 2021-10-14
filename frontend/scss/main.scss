@@ -1,5 +1,5 @@
 body {
-  background-color: transparent;
+  background-color: #959595;
   font-family: 'Assistant', sans-serif;
   color: #041f5d;
 }
@@ -7,7 +7,7 @@ body {
 //navbar
 .navbar-brand {
   img {
-    max-height: 40px;
+  max-height: 20px;
   }
 }
 
@@ -41,4 +41,85 @@ body {
     background-color: #a1bdff;
     color: rgb(0, 7, 141);
     }
+}
+
+//header
+header{
+  img {
+    margin-top: 75px;
+  
+  }
+
+  .section-sejarah-content{
+    .container{
+      .card-item {
+      margin-top: 45px;
+      min-height: 380px;
+      padding: 30px;
+      
+      background-size: cover;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    
+      }
+
+      hr {
+      margin-left: -80px;
+      margin-right: -80px;
+     }
+
+     h1 {
+       text-align: center;
+       font-size: 38px;
+       font-weight: bold;
+     }
+
+     p {
+       text-align: justify;
+       font-size: 18px;
+       font-weight: 400;
+     }
+
+    }
+  }
+
+  //ahp
+  .section-ahp-content{
+    .container{
+      .card-table {
+      margin-top: 45px;
+      min-height: 380px;
+      padding: 30px;
+      
+      margin-bottom: 20px;
+      border-radius: 10px;
+    
+      }
+
+      hr {
+      margin-left: -80px;
+      margin-right: -80px;
+     }
+
+     h1 {
+       text-align: center;
+       font-size: 38px;
+       font-weight: bold;
+     }
+
+     form {
+       padding: 30px;
+       text-align: left;
+       label{
+        font-size: 16px;
+         
+       }
+
+      input {
+         border-radius: 5px;
+         box-sizing: content-box;
+      }
+     }
+    }
+  }
 }
